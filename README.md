@@ -10,4 +10,4 @@
 
 ## Índice de desafios
 
-- [00 - Instagram Log In Page Clone](https://github.com/gabrielribeirof/santander-bootcamp-fullstack-developer)
+- [00 - Instagram Log In Page Clone](https://github.com/gabrielribeirof/santander-bootcamp-fullstack-developer/tree/main/instagram-log-in-clone)

@@ -8,8 +8,12 @@ Técnicas ultilizadas:
 - CSS Flexbox
 - Responsividade com Media Queries
 
-Solução:
+### Solução:
 
 <div align="center">
   <img src="SCREENSHOT.png" />
+</div>
+
+<div align="center">
+  <img src="SCREENSHOT_SM_DEVICE.png" />
 </div>
