@@ -8,8 +8,6 @@
   Meus desafios e anotações do Santander Bootcamp 2022, trilha Fullstack Developer
 </div>
 
----
-
 ## Módulos
 
 - Módulo I - Introdução
