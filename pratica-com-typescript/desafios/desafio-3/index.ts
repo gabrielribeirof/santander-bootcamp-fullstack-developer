@@ -34,23 +34,37 @@
 
 let botaoAtualizar = document.getElementById('atualizar-saldo')
 let botaoLimpar = document.getElementById('limpar-saldo')
-let soma = document.getElementById('soma') as HTMLInputElement
+let campoSoma = document.getElementById('soma') as HTMLInputElement
 let campoSaldo = document.getElementById('campo-saldo')
 
-campoSaldo.innerHTML = '0'
+let saldo = 0
 
-function somarAoSaldo(soma: number) {
-    campoSaldo.innerHTML += soma.toString()
+function somarAoSaldo(valor: number) {
+  if (campoSaldo) {
+    saldo += valor
+    campoSaldo.innerHTML = saldo.toString()
+  }
 }
 
 function limparSaldo() {
-    campoSaldo.innerHTML = ''
+  if (campoSaldo) {
+    saldo = 0
+    campoSaldo.innerHTML = saldo.toString()
+  }
 }
 
-botaoAtualizar.addEventListener('click', function () {
-    somarAoSaldo(Number(soma.value))
-})
+if (botaoAtualizar) {
+  botaoAtualizar.addEventListener('click', function () {
+    somarAoSaldo(Number(campoSoma.value))
+  })
+}
 
-botaoLimpar.addEventListener('click', function () {
+if (botaoLimpar) {
+  botaoLimpar.addEventListener('click', function () {
     limparSaldo()
-})
+  })
+}
+
+if (campoSaldo) {
+  campoSaldo.innerHTML = '0'
+}

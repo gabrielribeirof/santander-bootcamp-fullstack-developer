@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node-dev"
+    "compile": "yarn tsc --project tsconfig.json"
   },
   "devDependencies": {
     "ts-node-dev": "^2.0.0",
