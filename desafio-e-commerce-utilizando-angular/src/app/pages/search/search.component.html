@@ -1,0 +1,7 @@
+<main>
+  <form>
+    <input [(ngModel)]="searchBy" name="search-by" type="text" placeholder="Encontre um produto..." #searchByInput />
+  </form>
+
+  <eshop-product-list [products]="filteredProducts"></eshop-product-list>
+</main>

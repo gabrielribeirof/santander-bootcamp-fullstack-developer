@@ -1,0 +1,35 @@
+<main>
+  <div class="bag-products-container">
+    <div class="bag-product" *ngFor="let product of products">
+      <div class="bag-product-image">
+        <img [src]="product.imageURL" />
+      </div>
+
+      <div class="bag-product-info">
+        <div class="bag-product-title">{{ product.name }}</div>
+        
+        <div class="bag-product-price">{{ product.price }}</div>
+
+        <div class="bag-product-quantity">
+          <select (change)="changeProductQuantity(product.id, select.value)" #select>
+            <option
+              [value]="number"
+              [selected]="number == product.quantity"
+              *ngFor="let number of arraySequence(product.availableQuantity)"
+            >
+              {{ number }}
+            </option>
+          </select>
+        </div>
+      </div>
+
+      <div class="bag-product-actions">
+        <button class="bag-product-button" (click)="removeProduct(product.id)">X</button>
+      </div>
+    </div>
+
+    <ng-template [ngIf]="products.length == 0">
+      <div class="bag-product-empty">Não há items no carrinho!</div>
+    </ng-template>
+  </div>
+</main>
