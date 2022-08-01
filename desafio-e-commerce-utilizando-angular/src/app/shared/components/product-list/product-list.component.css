@@ -1,0 +1,33 @@
+.products-container {
+  max-width: 1080px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 50px;
+}
+
+.product {
+  width: 100%;
+  cursor: pointer;
+}
+
+.product:hover {
+  text-decoration: underline;
+}
+
+.product-image img {
+  width: 100%;
+}
+
+.product-info {
+  font-size: 13px;
+}
+
+.product-info .product-name {
+  padding: 10px 0;
+}
+
+.product-info .product-price {
+  font-weight: bold;
+}
