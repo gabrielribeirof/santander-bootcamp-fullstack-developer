@@ -1,0 +1,81 @@
+header {
+  width: 100vw;
+  height: 80px;
+  padding: 0 40px;
+  border-bottom: 1px solid #EEEEEE;
+
+  position: fixed;
+  display: flex;
+  align-items: center;
+
+  background: #FFF;
+}
+
+.header-item {
+  display: flex;
+}
+
+.header-item.right-side {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-logo {
+  height: 60px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.header-button {
+  cursor: pointer;
+  transition: color 200ms;
+}
+
+.header-button + .header-button {
+  margin-left: 6px;
+}
+
+.header-button svg {
+  width: 24px;
+}
+
+.header-button svg .styled-fill,
+.header-button svg .styled-stroke {
+  transition: all 200ms;
+}
+
+.header-button svg:hover .styled-stroke,
+.header-button.active svg .styled-stroke {
+  stroke: #000000;
+}
+
+.header-button svg:hover .styled-fill,
+.header-button.active svg .styled-fill {
+  fill: #000000;
+}
+
+.global-nav {
+  margin-right: 20px;
+}
+
+.global-nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #BBBBBB;
+  cursor: pointer;
+  transition: color 200ms;
+}
+
+.global-nav a + a {
+  margin-left: 20px;
+}
+
+.global-nav a:hover {
+  color: #000000;
+}
+
+.global-nav a.active {
+  color: #000000;
+}

@@ -1,0 +1,68 @@
+import { Product } from '../models/product';
+
+export const productsData: Product[] = [
+  {
+    id: '1',
+    name: 'Colete masculino acolchoado dobrável e resistente à água',
+    price: 'R$ 1.489,00',
+    type: 'men',
+    availableQuantity: 4,
+    imageURL: 'assets/product-1.jpg',
+  },
+  {
+    id: '2',
+    name: 'Jaqueta masculina regular fit reversível e acolchoada',
+    price: 'R$ 1.049,00',
+    type: 'men',
+    availableQuantity: 4,
+    imageURL: 'assets/product-2.jpg',
+  },
+  {
+    id: '3',
+    name: 'Jaqueta masculina acolchoada dobrável e resistente à água com capuz',
+    price: 'R$ 1.889,00',
+    type: 'men',
+    availableQuantity: 4,
+    imageURL: 'assets/product-3.jpg',
+  },
+  {
+    id: '4',
+    name: 'Moletom feminino em fleece com decote careca e bordado colorido',
+    price: 'R$ 449,00',
+    type: 'women',
+    availableQuantity: 4,
+    imageURL: 'assets/product-4.jpg',
+  },
+  {
+    id: '5',
+    name: 'Capa de chuva feminina Lacoste LIVE dobrável com zíper',
+    price: 'R$ 629,00',
+    type: 'women',
+    availableQuantity: 4,
+    imageURL: 'assets/product-5.jpg',
+  },
+  {
+    id: '6',
+    name: 'Moletom feminino oversized com capuz Lacoste L!VE x Minecraft',
+    price: 'R$ 629,00',
+    type: 'women',
+    availableQuantity: 4,
+    imageURL: 'assets/product-6.jpg',
+  },
+  {
+    id: '7',
+    name: 'Camiseta infantil em algodão orgânico Lacoste x Minecraft',
+    price: 'R$ 209,00',
+    type: 'kids',
+    availableQuantity: 4,
+    imageURL: 'assets/product-7.jpg',
+  },
+  {
+    id: '8',
+    name: 'Camiseta infantil em algodão com decote careca e estampa de crocodilo',
+    price: 'R$ 249,00',
+    type: 'kids',
+    availableQuantity: 4,
+    imageURL: 'assets/product-8.jpg',
+  },
+];
