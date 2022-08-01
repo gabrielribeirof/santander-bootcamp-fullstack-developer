@@ -18,5 +18,6 @@
 
 ## Índice de desafios
 
-- [00 - Instagram Log In Page Clone](https://github.com/gabrielribeirof/santander-bootcamp-fullstack-developer/tree/main/desafio-instagram-log-in-clone)
-- [01 - Prática com Typescript](https://github.com/gabrielribeirof/santander-bootcamp-fullstack-developer/tree/main/desafio-pratica-com-typescript)
+- [01 - Instagram Log In Page Clone](https://github.com/gabrielribeirof/santander-bootcamp-fullstack-developer/tree/main/desafio-instagram-log-in-clone)
+- [02 - Prática com Typescript](https://github.com/gabrielribeirof/santander-bootcamp-fullstack-developer/tree/main/desafio-pratica-com-typescript)
+- [02 - E-commerce utilizando Angular](https://github.com/gabrielribeirof/santander-bootcamp-fullstack-developer/tree/main/desafio-e-commerce-utilizando-angular)
