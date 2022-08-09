@@ -22,3 +22,4 @@
 - [02 - Prática com Typescript](https://github.com/gabrielribeirof/santander-bootcamp-fullstack-developer/tree/main/desafio-pratica-com-typescript)
 - [03 - E-commerce utilizando Angular](https://github.com/gabrielribeirof/santander-bootcamp-fullstack-developer/tree/main/desafio-e-commerce-utilizando-angular)
 - [04 - Banco digital com Java](https://github.com/gabrielribeirof/santander-bootcamp-fullstack-developer/tree/main/desafio-banco-digital-com-java)
+- [05 - Padrões de Projeto com Java e Spring](https://github.com/gabrielribeirof/santander-bootcamp-fullstack-developer/tree/main/desafio-padrões-de-projeto-com-java)
